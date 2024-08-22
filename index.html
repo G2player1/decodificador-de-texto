@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Decodificador de Texto</title>
 </head>
 <body>
-    
+    <header></header>
+    <main class="principal">
+        <section class="principal__logo"><img src="./assets//Logo.png" alt="logo-alura"></section>
+        <section class="principal__insere-texto">
+            <input class="principal__insere-texto__input" type="text">
+            <div class="principal__insere-texto__alerta">
+                <img src="./assets/bi_exclamation-circle-fill.png" alt="exclamation-circle">
+                <p class="principal__insere-texto__alerta__paragrafo">apenas letras minusculas e sem acento</p>
+            </div>
+            <div class="principal__insere-texto__botoes">
+                <button class="principal__insere-texto__botoes__criptografar"></button>
+                <button class="principal__insere-texto__botoes__descriptografar"></button>
+            </div>
+        </section>
+        <section class="principal__exibe-texto">
+            <img src="./assets/High quality products 1 1.svg" alt="mulher-busca">
+            <div class="principal__exibe-texto__no-msg">
+                <h1 class="principal__exibe-texto__no-msg__titulo">Nenhuma mensagem encontrada</h1>
+                <p class="principal__exibe-texto__no-msg__paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
