@@ -123,9 +123,26 @@ body {
 
 #copiar {
     display: none;
+    padding-right: 34%;
+    padding-left: 34%;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
 }
 
 #texto__exibe-texto {
     display: none;
+    padding: 0 10%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
 }
 
+.principal__exibe-texto__troca {
+    padding: 5% 0;
+    justify-content: space-between;
+}
+
+#copy {
+    display: none;
+}
