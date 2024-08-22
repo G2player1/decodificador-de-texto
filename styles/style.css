@@ -121,3 +121,11 @@ body {
     font-size: 1rem;
 }
 
+#copiar {
+    display: none;
+}
+
+#texto__exibe-texto {
+    display: none;
+}
+

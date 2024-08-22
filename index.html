@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,16 +18,18 @@
                 <p class="principal__insere-texto__alerta__paragrafo">apenas letras minusculas e sem acento</p>
             </div>
             <div class="principal__insere-texto__botoes">
-                <button class="principal__insere-texto__botoes__botao" id="criptografar">Criptografar</button>
-                <button class="principal__insere-texto__botoes__botao" id="descriptografar">Descriptografar</button>
+                <button class="principal__insere-texto__botoes__botao" id="criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="principal__insere-texto__botoes__botao" id="descriptografar" onclick="descriptografar()">Descriptografar</button>
             </div>
         </section>
         <section class="principal__exibe-texto">
-            <img class="principal__exibe-texto__img" src="./assets/High quality products 1 1.svg" alt="mulher-busca">
-            <div class="principal__exibe-texto__no-msg">
+            <img id="img__exibe-texto" class="principal__exibe-texto__img" src="./assets/High quality products 1 1.svg" alt="mulher-busca">
+            <div id="no-msg__exibe-texto" class="principal__exibe-texto__no-msg">
                 <h1 class="principal__exibe-texto__no-msg__titulo">Nenhuma mensagem encontrada</h1>
-                <p class="principal__exibe-texto__no-msg__paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <p class="principal__exibe-texto__no-msg__paragrafo">Digite um texto que você deseja criptografar ou descriptografar</p> 
             </div>
+            <p id="texto__exibe-texto" class="principal__exibe-texto__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, accusantium. Necessitatibus blanditiis odit veniam aliquam quod debitis. Debitis culpa cupiditate non voluptatem vitae quaerat earum, laboriosam tempore, expedita quis alias.</p>
+            <button class="principal__insere-texto__botoes__botao" id="copiar">Copiar</button>
         </section>
     </main>
     <footer></footer>
